@@ -1,0 +1,150 @@
+ body{
+    margin:0px;
+    padding: 0px;
+     background-color: black !important; 
+    color: rgb(248, 242, 242) !important;
+    
+
+}
+
+/* navbar starts */
+.logo-menu-section{
+    border: 2px ; 
+    border-bottom:5px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 10px rgba(8, 8, 9, 5) ; 
+    /* background-color:rgb(105, 255, 210); */
+    /* margin:0px; */
+
+}
+.logo-menu-section  nav .navbar {
+    /* box-shadow: 0 3px 10px rgba(8, 8, 9, 5);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1); */
+    margin: 0px;
+    color: white;
+
+}
+
+.logo-menu-left-section a {
+    
+    color: #27a776;
+    font-size: 30px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.logo-menu-left-section h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/* Right section of navbar */
+.top-bar-right-section ul li {
+    list-style: none;
+    margin: 5px;
+    transition: 0.5s;
+    color: white;
+    /* text-decoration: none; */
+
+}
+
+/* Page Content */
+.page-content{
+    margin:25px;
+    align-items: center;
+    justify-content: center;
+
+}
+h1 .content {
+    font-family: "Cardo", sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.patch {
+    background-color: #278360;
+}
+
+p .para2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    margin-top: 20px 20px;
+}
+
+a.nav-link{
+    color:white;
+}
+
+a.nav-link:hover{
+    color: #c8c8c8;
+}
+/* Button */
+.btn-main {
+    margin: 4px;
+    background: #27A776;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 16px;
+    padding: 12px 14px;
+    border-radius: 4px;
+    border: 2px solid;
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* gallery zoom effect */
+.gallery{
+       
+    gallery.mix {border-style: dotted dashed solid double;}  
+
+}
+
+.zoom {
+    transition: transform .2s;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1);
+    /* Safari 3-8 */
+     transform:scale(1);
+     /* transform: rotate(0.5turn); */
+}
+
+/* mouse hover */
+.btn-main:hover,  i:hover, li:hover{
+
+    font-weight: bold;
+    /* color:white; */
+} 
+
+
+.footer {
+
+    font-family: 'Open Sans', sans-serif;
+    margin-top:10px;
+    text-align: center;
+    padding: 20px 0;    
+    border-top: 2px solid rgb(245, 238, 238);
+}
+
+.footer .copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);   
+    font-size: 18px;
+}
+
+.footer .credits a {
+    color:#27A776;
+    text-decoration: none;
+    font-size: 14px;
+}
